@@ -2,15 +2,21 @@
 自动化填写京东商品评论
 
 
-open https://club.jd.com/myJdcomments/saveCommentSuccess.action
+open https://club.jd.com/myJdcomments/saveCommentSuccess.action  这是要待评价的商品列表
 
-input：
+在 Chrome，开发者工具，Console 控制台中粘贴：
+
+////////////////////////////////////////////////////////////////////////////////////////////
 
 spec4 = document.getElementsByClassName("btn-spec4")
 
 if (spec4.length > 1) { spec4[0].click() }
 
-after page loaded， input：
+////////////////////////////////////////////////////////////////////////////////////////////
+
+当新页面打开后，输入：
+
+////////////////////////////////////////////////////////////////////////////////////////////
 
 start5 = document.getElementsByClassName("star star5") var items = start5
 
@@ -27,3 +33,7 @@ for (i = 0; i < textareas.length; i++) { if (textareas[i].placeholder.endsWith("
 submitBtn = document.getElementsByClassName("btn-submit")
 
 submitBtn[0].click()
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+即可完成一次评价
