@@ -1,6 +1,8 @@
 # JD_AutoComment
 自动化填写京东商品评论
 
+github：https://github.com/wxthss82/JD_AutoComment/blob/master/README.md
+
 
 open https://club.jd.com/myJdcomments/saveCommentSuccess.action  这是要待评价的商品列表
 
