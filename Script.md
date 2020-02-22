@@ -1,6 +1,6 @@
-open https://club.jd.com/myJdcomments/saveCommentSuccess.action
+//open https://club.jd.com/myJdcomments/saveCommentSuccess.action
 
-input：
+//input：
 
 spec4 = document.getElementsByClassName("btn-spec4")
 
@@ -11,9 +11,10 @@ if (spec4.length > 1)
 
 
 
-after page loaded， input：
+//after page loaded， input：
 
 start5 = document.getElementsByClassName("star star5")
+
 var items = start5
 
 for (var i = 0; i < items.length; i++)
@@ -24,8 +25,11 @@ for (var i = 0; i < items.length; i++)
 tags = document.getElementsByClassName("tag-item")
 
 var items = tags
+
 i = 0
+
 cnt = 0
+
 for (i = 0; i < items.length; i++)
 {
 	if (items[i].innerText.endsWith("携带") && items[i].innerText.length==2) items[i].click()
