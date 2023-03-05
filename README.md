@@ -1,6 +1,11 @@
 # JD_AutoComment
 自动化填写京东商品评论
 
+
+https://gist.github.com/cobola/4748c2d531b979d11042c8942134402b
+请移步到该脚本，更方便和鲁棒，一键完成。
+
+
 github：https://github.com/wxthss82/JD_AutoComment/blob/master/README.md
 
 
